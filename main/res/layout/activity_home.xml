@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asusmr.snake.HomeActivity"
+    android:background="@drawable/snake_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="56sp"
+        android:layout_centerHorizontal="true"
+        android:text="Snake"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Play"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:background="@drawable/play_btn"
+        android:onClick="nextActivity"/>
+
+
+</RelativeLayout>
